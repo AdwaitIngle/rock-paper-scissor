@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(to right,rgb(252, 110, 2),rgb(255, 153, 0),rgb(255, 196, 0),yellow);
+}
+.container{
+   /* margin-left: 45%;
+    margin-top: 20%;*/
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    justify-content: center;
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 15);
+}
+.buttons{
+    margin: 20px;
+}
+#rock,#paper,#scissor{
+    margin: 30px;
+    width: 80px;
+    height: 60px;
+    border-radius: 100%;
+    border: 4px solid black;
+    background-color: yellow;
+    cursor: pointer;
+}
+#para{
+    width: 350px;
+    margin-left: 63px;
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(120, 3, 183);
+    font-style: oblique;
+    font-weight: bold;
+}
